@@ -7318,3 +7318,10 @@ padding: 12px 20px 12px 40px;
   display: ruby;
   align-self: center;
 }
+
+/* new-code 404.2.3 */
+@media(max-width:450px){
+  .icon-head{
+    width: 40px!important;
+  }
+}
