@@ -7325,3 +7325,7 @@ padding: 12px 20px 12px 40px;
     width: 40px!important;
   }
 }
+/* new-code 404.2.9 */
+.about_counter_bg{
+  margin-bottom: 30px;
+}
