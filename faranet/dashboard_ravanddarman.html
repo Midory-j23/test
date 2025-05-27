@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="fa"><head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi">
-    <title>پایش سلامت ایرانیان - داشبورد- تاریخچه تراکنش ها</title>
+    <title>پایش سلامت ایرانیان - داشبورد- نوبت ها</title>
     <link rel="icon" type="image/png" href="./images/Untitled-1(1).png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -78,7 +78,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">صفحات <i class="far fa-plus"></i></a>
                         <ul class="dropdown">
-                            <li><a href="blog_details.html">جزئیات وبلاگ</a></li>
                             <li><a href="service_details.html">جزئیات خدمات</a></li>
                             <li><a href="doctor.html">دکتر</a></li>
                             <li><a href="doctor_details.html">جزئیات دکتر</a></li>
@@ -152,274 +151,185 @@
                             <label for="profile_photo"><i class="fas fa-camera"></i></label>
                             <input id="profile_photo" type="file" hidden="">
                         </div>
-                        <h4>محسن دادار</h4>
+                        <h4>محمد رضا اقا محمدی</h4>
                         <p>آیدی بیمار: ۲۳۶۰۲۰۳۳۹۸۱۲</p>
                     </div>
                     <ul class="dashboard_menu">
-                        <li><a  href="dashboard.html">پروفایل من</a></li>
-                        <li><a  href="dashboard_appoinment.html">نوبت ها</a></li>
-                        <li><a class="active" href="dashboard_trannsaction_history.html">تاریخچه تراکنش ها</a></li>
-                        <li><a href="dashboard_meeting_history.html">تاریخچه نوبت ها</a></li>
-                        <li><a href="dashboard_upcoming_meeting.html">نوبت های آينده</a></li>
+                        <li><a href="dashboard.html">پروفایل من</a></li>
+                        <li><a class="active" href="dashboard_ravanddarman.html">روند درمان</a></li>
+                        <li><a href="dashboard_trannsaction_history.html">اقدامات بعد از عمل</a></li>
+                        <li><a href="dashboard_meeting_history.html">ورزش های تقویتی</a></li>
+                        <li><a href="dashboard_upcoming_meeting.html">تغذیه و رژیم غذایی</a></li>
                         <li><a href="dashboard_message.html">پیام ها</a></li>
                         <li><a href="#">خروج</a></li>
                     </ul>
                 </div>
-
                 <div class="col-xl-9 col-lg-8 wow fadeInRight" data-wow-duration="1s">
                     <div class="dashboard_content">
-                        <h5>تاریخچه تراکنش ها</h5>
-                        <div class="appointment_history">
+                        <h5>روند درمان</h5>
+                        <!-- <div class="appointment_history">
                             <div class="table-responsive">
                                 <table class="table">
-                                    <tbody class="tf_dashboard__listing_body">
+                                    <tbody>
                                         <tr>
-                                            <th class="th_sn">
-                                                <p>ردیف</p>
+                                            <th class="sn">
+                                                ردیف
                                             </th>
-                                            <th class="th_name">
-                                                <p>دکتر</p>
-                                            </th>
-
-                                            <th class="th_date">
-                                                <p>تاریخ</p>
+                                            <th class="name">
+                                                دکتر
                                             </th>
 
-                                            <th class="transection">
-                                                <p>شماره تراکنش</p>
+                                            <th class="date">
+                                                تاریخ
                                             </th>
 
-                                            <th class="th_amount">
-                                                <p>میزان</p>
+                                            <th class="chamber">
+                                                اتاق
                                             </th>
 
-                                            <th class="payment_method">
-                                                <p>روش پرداخت</p>
+                                            <th class="status">
+                                                وضعیت
+                                            </th>
+
+                                            <th class="edit">
+                                                عملیات
                                             </th>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
+                                        <tr class="tabile_row">
+                                            <td class="sn">
                                                 <p>۱</p>
                                             </td>
 
-                                            <td class="th_name">
+                                            <td class="name">
                                                 <p>دکتر نوبخت</p>
+                                                <span>دندانپزشک</span>
                                             </td>
 
-                                            <td class="th_date">
+                                            <td class="date">
                                                 <p>۰۵ مهر ۱۴۰۲</p>
+                                                <span class="date_time">۴:۳۰ عصر</span>
                                             </td>
 
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
+                                            <td class="chamber">
+                                                <p>اتاق ۴۱۲.  بیمارستان نمازی</p>
                                             </td>
 
-                                            <td class="th_amount">
-                                                <p>۴۵۶,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button>انجام شده</button>
                                             </td>
 
-                                            <td class="payment_method">
-                                                <p>پرداخت نقدی</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
+                                        <tr class="tabile_row">
+                                            <td class="sn">
                                                 <p>۲</p>
                                             </td>
-
-                                            <td class="th_name">
+                                            <td class="name">
                                                 <p>دکتر رضایی</p>
+                                                <span>قلب و عروض</span>
                                             </td>
-
-                                            <td class="th_date">
-                                                <p>۱۶ مهر ۱۴۰۲</p>
+                                            <td class="date">
+                                                <p>۰۸ مهر ۱۴۰۲</p>
+                                                <span class="date_time">۴:۳۰ عصر</span>
                                             </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
+                                            <td class="chamber">
+                                                <p>اتاق ۴. بیمارستان رجایی</p>
                                             </td>
-
-                                            <td class="th_amount">
-                                                <p>۲۳۲,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button class="pending_btn">معلق شده</button>
                                             </td>
-
-                                            <td class="payment_method">
-                                                <p>زرین پال</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
-                                                <p>۴</p>
+                                        <tr class="tabile_row">
+                                            <td class="sn">
+                                                <p>۳</p>
                                             </td>
-
-                                            <td class="th_name">
+                                            <td class="name">
                                                 <p>دکتر اکبری</p>
+                                                <span>داخلی</span>
                                             </td>
-
-                                            <td class="th_date">
-                                                <p>۲۵ مهر ۱۴۰۲</p>
+                                            <td class="date">
+                                                <p>۱۵ مهر ۱۴۰۲</p>
+                                                <span class="date_time">۴:۴۰ عصر</span>
                                             </td>
-
-                                            <td class="transection">
-                                                <p>#123FRHJHJHEYG568</p>
+                                            <td class="chamber">
+                                                <p>اتاق ۷. درمانگاه شوشتری</p>
                                             </td>
-
-                                            <td class="th_amount">
-                                                <p>۱۳۴,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button>انجام شده</button>
                                             </td>
-
-                                            <td class="payment_method">
-                                                <p>درگاه سامان</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
+                                        <tr class="tabile_row">
+                                            <td class="sn">
                                                 <p>۴</p>
                                             </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر محمدی</p>
+                                            <td class="name">
+                                                <p>دکتر رحیمی</p>
+                                                <span>اطفال</span>
                                             </td>
-
-                                            <td class="th_date">
-                                                <p>۴ آبان ۱۴۰۲</p>
+                                            <td class="date">
+                                                <p>۲۲ مهر ۱۴۰۲</p>
+                                                <span class="date_time">۱۹:۳۰ عصر</span>
                                             </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
+                                            <td class="chamber">
+                                                <p>اتاق۱۲. درمانگاه امام رضا</p>
                                             </td>
-
-                                            <td class="th_amount">
-                                                <p>۸۳,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button class="pending_btn">معلق شده</button>
                                             </td>
-
-                                            <td class="payment_method">
-                                                <p>پرداخت نقدی</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
+                                        <tr class="tabile_row">
+                                            <td class="sn">
                                                 <p>۵</p>
                                             </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر احمدی</p>
+                                            <td class="name">
+                                                <p>دکتر خدادوست</p>
+                                                <span>چشم پزشکی</span>
                                             </td>
-
-                                            <td class="th_date">
-                                                <p>۲۲ آذر ۱۴۰۲</p>
+                                            <td class="date">
+                                                <p>۱۲ آبان ۱۴۰۲</p>
+                                                <span class="date_time">۱۰:۰۰۰ صبح</span>
                                             </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
+                                            <td class="chamber">
+                                                <p>اتاق ۶.  بیمارستان دنا</p>
                                             </td>
-
-                                            <td class="th_amount">
-                                                <p>۶۵۵,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button>انجام شده</button>
                                             </td>
-
-                                            <td class="payment_method">
-                                                <p>درگاه ملت</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
+                                        <tr class="tabile_row">
+                                            <td class="sn">
                                                 <p>۶</p>
                                             </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر ناموران</p>
+                                            <td class="name">
+                                                <p>دکتر محمدی</p>
+                                                <span>زنان و زایمان</span>
                                             </td>
-
-                                            <td class="th_date">
-                                                <p>۳۰ آذر ۱۴۰۲</p>
+                                            <td class="date">
+                                                <p>۱۶ آبان ۱۴۰۲</p>
+                                                <span class="date_time">۱۲:۰۰ ظهر</span>
                                             </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
+                                            <td class="chamber">
+                                                <p>۴ ساختمان پزشکان</p>
                                             </td>
-
-                                            <td class="th_amount">
-                                                <p>۸۹۳,۰۰۰ تومان</p>
+                                            <td class="status">
+                                                <button class="pending_btn">معلق شده</button>
                                             </td>
-
-                                            <td class="payment_method">
-                                                <p>دستگاه پوز</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
-                                                <p>۷</p>
-                                            </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر خدادوست</p>
-                                            </td>
-
-                                            <td class="th_date">
-                                                <p>۴ دی ۱۴۰۲</p>
-                                            </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
-                                            </td>
-
-                                            <td class="th_amount">
-                                                <p>۲۳۲,۰۰۰ تومان</p>
-                                            </td>
-
-                                            <td class="payment_method">
-                                                <p>پرداخت نقدی</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
-                                                <p>۸</p>
-                                            </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر اسلامی</p>
-                                            </td>
-
-                                            <td class="th_date">
-                                                <p>۱۰ دی ۱۴۰۲</p>
-                                            </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
-                                            </td>
-
-                                            <td class="th_amount">
-                                                <p>۱۲۰,۰۰۰ تومان</p>
-                                            </td>
-
-                                            <td class="payment_method">
-                                                <p>زیبال</p>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row transection_history">
-                                            <td class="th_sn">
-                                                <p>۹</p>
-                                            </td>
-
-                                            <td class="th_name">
-                                                <p>دکتر بروجردی</p>
-                                            </td>
-
-                                            <td class="th_date">
-                                                <p>۲۳ دی ۱۴۰۲</p>
-                                            </td>
-
-                                            <td class="transection">
-                                                <p>#123FRGDFEYG568</p>
-                                            </td>
-
-                                            <td class="th_amount">
-                                                <p>۴۴۵,۰۰۰ تومان</p>
-                                            </td>
-
-                                            <td class="payment_method">
-                                                <p>درگاه به پرداخت</p>
+                                            <td class="edit">
+                                                <a href="#">ویرایش</a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -431,16 +341,16 @@
                                 <div id="pagination">
                                     <nav aria-label="...">
                                         <ul class="pagination justify-content-center">
-                                            <li class="page-item"><a class="page-link" href="#"><i class="far fa-angle-double-right"></i></a></li>
-                                            <li class="page-item"><a class="page-link active" href="#">۰۱</a></li>
+                                            <li class="page-item"><a class="page-link active" href="#"><i class="far fa-angle-double-right"></i></a></li>
+                                            <li class="page-item"><a class="page-link " href="#">۰۱</a></li>
                                             <li class="page-item"><a class="page-link" href="#">۰۲</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">۰۳</a></li>
+                                            <li class="page-item"><a class="page-link "  href="#">۰۳</a></li>
                                             <li class="page-item"><a class="page-link" href="#"><i class="far fa-angle-double-left"></i></a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

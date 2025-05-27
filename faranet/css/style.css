@@ -231,7 +231,7 @@ button:focus {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   font-family: 'estedad-semibold';
-z-index: 1;
+  z-index: 1;
 }
 
 .common_btn::after {
@@ -278,7 +278,7 @@ z-index: 1;
   font-size: 18px;
   font-weight: 700;
   font-family: 'estedad-semibold';
-    color: var(--colorPrimary);
+  color: var(--colorPrimary);
   text-transform: capitalize;
   position: relative;
   display: inline-block;
@@ -353,7 +353,7 @@ z-index: 1;
   margin-bottom: 10px;
   color: var(--colorWhite);
   font-family: 'estedad-verybold';
-text-align: right;
+  text-align: right;
 }
 
 .breadcrumb_text ul {
@@ -1302,7 +1302,7 @@ text-align: right;
   padding-right: 50px;
   text-align: right;
   font-family: 'estedad-semibold';
-flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .faq_accordion .accordion-button:not(.collapsed)::after {
@@ -1329,7 +1329,7 @@ flex-direction: row-reverse;
   color: var(--paraColor);
   border-top: 1px solid #2ac28e21;
   font-family: 'estedad-light';
-text-align: right;
+  text-align: right;
 }
 
 .faq_img::after {
@@ -3128,7 +3128,7 @@ text-align: right;
   font-weight: 600;
   color: var(--colorBlack);
   font-family: 'esredad-medium';
-text-align: right;
+  text-align: right;
 }
 
 .single_project .text p {
@@ -5068,7 +5068,7 @@ text-align: right;
   font-weight: 600;
   margin-top: 25px;
   text-transform: capitalize;
-  
+
 }
 
 .become_doctor_text h1,
@@ -5169,7 +5169,7 @@ text-align: right;
   font-size: 16px;
   font-weight: 500;
   font-family: 'estedad-semibold';
-  
+
 }
 
 .become_doctor_input .form-check-input {
@@ -5230,7 +5230,7 @@ text-align: right;
 
 .service_search .select2-container--default .select2-selection--single .select2-selection__rendered {
   color: var(--colorWhite);
-  
+
 }
 
 .service_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
@@ -5492,7 +5492,7 @@ text-align: right;
   -moz-transition: all linear .3s;
   -ms-transition: all linear .3s;
   -o-transition: all linear .3s;
-    font-family: 'estedad-light';
+  font-family: 'estedad-light';
 
 }
 
@@ -7303,29 +7303,83 @@ text-align: right;
 /* ===========================
   DASHBOARD END
 =============================*/
-.data-icon{
+.data-icon {
   background-image: url(../images/calendar.png);
   background-repeat: no-repeat;
-background-position: 20px 15px; 
-padding: 12px 20px 12px 40px;
+  background-position: 20px 15px;
+  padding: 12px 20px 12px 40px;
 }
 
 /* new-code after eid */
-.icon-head{
-  width: 40%!important;
+.icon-head {
+  width: 40% !important;
 }
-.cont-menu .navbar-brand{
+
+.cont-menu .navbar-brand {
   display: ruby;
   align-self: center;
 }
 
 /* new-code 404.2.3 */
-@media(max-width:450px){
-  .icon-head{
-    width: 40px!important;
+@media(max-width:450px) {
+  .icon-head {
+    width: 40px !important;
   }
 }
+
 /* new-code 404.2.9 */
-.about_counter_bg{
+.about_counter_bg {
   margin-bottom: 30px;
+}
+
+/* new-code 404.3.6 */
+.p-intro {
+  line-height: 1.8;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #2ac28e;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'esredad-medium';
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
 }
