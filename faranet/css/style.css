@@ -7392,3 +7392,46 @@ button:focus {
   direction: rtl; /* چون متنت فارسیه */
   text-align: right;
 }
+/* new_code 404.3.9 */
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: clamp(300px, 90%, 500px);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.button-registration {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2ac28e;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button-registration:hover {
+  background-color: #1d7657;
+}

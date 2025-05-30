@@ -287,3 +287,22 @@ $(function () {
     });
 
 });
+const form = document.getElementById("medicalForm");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const data = {
+    firstName: form.firstName.value,
+    lastName: form.lastName.value,
+    age: form.age.value,
+    birthdate: form.birthdate.value,
+    location: form.location.value,
+    medications: form.medications.value,
+    conditions: form.conditions.value,
+  };
+
+  console.log("اطلاعات فرم:", data);
+  alert("فرم با موفقیت ارسال شد!");
+  form.reset();
+});
