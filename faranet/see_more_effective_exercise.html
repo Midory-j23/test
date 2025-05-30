@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="fa"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi">
-    <title>پایش سلامت ایرانیان - داشبورد</title>
+    <title>ورزش های تقویتی</title>
     <link rel="icon" type="image/png" href="./images/Untitled-1(1).png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,15 +10,12 @@
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/animate.css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
 </head>
-
-
 <body>
-
     <!--============================
         TOPBAR START
     ==============================-->
@@ -66,7 +63,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">خانه </a>
+                        <a class="nav-link " href="#">خانه</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">درباره ما</a>
@@ -77,12 +74,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">صفحات <i class="far fa-plus"></i></a>
                         <ul class="dropdown">
+                            <!-- <li><a href="become_doctor.html">دکتر شوید</a></li> -->
+                            <!-- <li><a href="blog_details.html">جزئیات وبلاگ</a></li> -->
                             <li><a href="service_details.html">جزئیات خدمات</a></li>
                             <li><a href="doctor.html">دکتر</a></li>
-                            <li><a href="doctor_details.html">جزئیات دکتر</a></li>
+                            <!-- <li><a href="doctor_details.html">جزئیات دکتر</a></li> -->
                             <li><a href="gallary.html">گالری</a></li>
-                            <li><a class="active" href="dashboard.html">داشبورد</a></li>
+                            <!-- <li><a href="pricing.html">خرید پلن</a></li> -->
+                            <!-- <li><a href="payment.html">پرداخت</a></li> -->
+                            <li><a href="dashboard.html">داشبورد</a></li>
+                            <!-- <li><a href="error.html">صفحه ۴۰۴</a></li> -->
                             <li><a href="faq.html">سوالات متداول</a></li>
+                            <!-- <li><a href="sign_in.html">ورود</a></li>
+                            <li><a href="sing_up.html">ثبت نام</a></li>
+                            <li><a href="forgot_password.html">فراموشی رمز عبور</a></li> -->
                             <li><a href="privacy_policy.html">سیاست حفظ حریم خصوصی</a></li>
                             <li><a href="terms_condition.html">قوانین و مقررات</a></li>
                         </ul>
@@ -95,8 +100,8 @@
                     </li>
                 </ul>
                 <ul class="menu_btn d-flex flex-wrap align-items-center">
-                    <li><a href="#" class="menu_search_icon"><i class="fal fa-search"></i></a></li>
-                    <li><a href="appointment.html" class="common_btn"> نوبت دکتر</a></li>
+                    <!-- <li><a href="#" class="menu_search_icon"><i class="fal fa-search"></i></a></li> -->
+                    <li><a href="sign_in.html" class="common_btn"> ورود بیماران </a></li>
                 </ul>
             </div>
         </div>
@@ -112,8 +117,6 @@
     <!--============================
         MAIN MANU END
     ==============================-->
-
-
     <!--============================
         BREADCRUMB START
     ==============================-->
@@ -135,183 +138,19 @@
     <!--============================
         BREADCRUMB END
     ==============================-->
-
-
-    <!--============================
-        DASHBOARD START
-    ==============================-->
-    <section class="dashboard mt_100 xs_mt_70 pb_100 xs_pb_70" style="direction: rtl;">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 wow fadeInLeft" data-wow-duration="1s">
-                    <div class="user_profile">
-                        <div class="user_profile_img">
-                            <img src="images/user_img.png" alt="user" class=" img-fluid w-100">
-                            <label for="profile_photo"><i class="fas fa-camera"></i></label>
-                            <input id="profile_photo" type="file" hidden="">
-                        </div>
-                        <h4>محسن دادار</h4>
-                        <p>آیدی بیمار: ۲۳۶۰۲۰۳۳۹۸۱۲</p>
-                    </div>
-                    <ul class="dashboard_menu">
-                        <li><a  href="dashboard.html">پروفایل من</a></li>
-                        <li><a  href="dashboard_appoinment.html">نوبت ها</a></li>
-                        <li><a href="dashboard_trannsaction_history.html">تاریخچه تراکنش ها</a></li>
-                        <li><a  href="dashboard_meeting_history.html">تاریخچه نوبت ها</a></li>
-                        <li><a class="active" href="dashboard_upcoming_meeting.html">نوبت های آينده</a></li>
-                        <li><a href="dashboard_message.html">پیام ها</a></li>
-                        <li><a href="#">خروج</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-xl-9 col-lg-8 wow fadeInRight" data-wow-duration="1s">
-                    <div class="dashboard_content">
-                        <h5>نوبت های آینده</h5>
-                        <div class="appointment_history">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tbody class="tf_dashboard__listing_body">
-                                        <tr>
-                                            <th class="um_sn">
-                                                <p>ردیف</p>
-                                            </th>
-                                            <th class="um_name">
-                                                <p>دکتر</p>
-                                            </th>
-
-                                            <th class="um_date">
-                                                <p>تاریخ</p>
-                                            </th>
-
-                                            <th class="um_duration">
-                                                <p>مدت زمان</p>
-                                            </th>
-
-                                            <th class="um_action">
-                                                <p>وضعیت</p>
-                                            </th>
-                                        </tr>
-                                        <tr class="tabile_row">
-                                            <td class="um_sn">
-                                                <p>1</p>
-                                            </td>
-
-                                            <td class="um_name">
-                                                <p>دکتر رحیمی</p>
-                                            </td>
-
-                                            <td class="um_date">
-                                                <p>۰۵ مهر ۱۴۰۲</p>
-                                                <span class="date_time">۴:۳۰ عصر</span>
-                                            </td>
-
-                                            <td class="um_duration">
-                                                <p>۳۰ دقیقه</p>
-                                            </td>
-
-                                            <td class="um_action">
-                                                <button class="confirm_btn">تایید</button>
-                                                <button class="cancel_btn">کنسل</button>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row">
-                                            <td class="um_sn">
-                                                <p>۲</p>
-                                            </td>
-
-                                            <td class="um_name">
-                                                <p>دکتر نوبخت</p>
-                                            </td>
-
-                                            <td class="um_date">
-                                                <p>۱۵ مهر ۱۴۰۲</p>
-                                                <span class="date_time">۱۴:۳۰ PM</span>
-                                            </td>
-
-                                            <td class="um_duration">
-                                                <p>۶۰ دقیقه</p>
-                                            </td>
-
-                                            <td class="um_action">
-                                                <button class="confirm_btn">تایید</button>
-                                                <button class="cancel_btn">کنسل</button>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row">
-                                            <td class="um_sn">
-                                                <p>۳</p>
-                                            </td>
-
-                                            <td class="um_name">
-                                                <p>دکتر خدادوست</p>
-                                            </td>
-
-                                            <td class="um_date">
-                                                <p>۲۵ مهر ۱۴۰۲</p>
-                                                <span class="date_time">۱۹:۳۰ عصر</span>
-                                            </td>
-
-                                            <td class="um_duration">
-                                                <p>۴۵ دقیقه</p>
-                                            </td>
-
-                                            <td class="um_action">
-                                                <button class="confirm_btn">تایید</button>
-                                                <button class="cancel_btn">کنسل</button>
-                                            </td>
-                                        </tr>
-                                        <tr class="tabile_row">
-                                            <td class="um_sn">
-                                                <p>۴</p>
-                                            </td>
-
-                                            <td class="um_name">
-                                                <p>دکتر حقیقی</p>
-                                            </td>
-
-                                            <td class="um_date">
-                                                <p>۵ دی ۱۴۰۲</p>
-                                                <span class="date_time">۲۰:۳۰ عصر</span>
-                                            </td>
-
-                                            <td class="um_duration">
-                                                <p>۳۰ دقیقه</p>
-                                            </td>
-
-                                            <td class="um_action">
-                                                <button class="confirm_btn">تایید</button>
-                                                <button class="cancel_btn">کنسل</button>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="row mt_60">
-                            <div class="col-12">
-                                <div id="pagination">
-                                    <nav aria-label="...">
-                                        <ul class="pagination justify-content-center">
-                                            <li class="page-item"><a class="page-link" href="#"><i class="far fa-angle-double-right"></i></a></li>
-                                            <li class="page-item"><a class="page-link active" href="#">۰۱</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">۰۲</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">۰۳</a></li>
-                                            <li class="page-item"><a class="page-link" href="#"><i class="far fa-angle-double-left"></i></a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="w-100">
+        <div class="content-weblog m-auto">
+            <h2>ورزش های تقویتی</h2>
+            <p>در این بخش، به بررسی اقدامات و مراقبت‌های لازم پس از انجام عمل جراحی می‌پردازیم. این اقدامات شامل موارد زیر
+                است:</p>
+            <ul>
+                <li>استراحت کافی و رعایت رژیم غذایی مناسب</li>
+                <li>مراقبت از زخم و جلوگیری از عفونت</li>
+                <li>پیگیری منظم با پزشک معالج</li>
+                <li>انجام تمرینات فیزیوتراپی در صورت نیاز</li>
+            </ul>
         </div>
-    </section>
-    <!--============================
-        DASHBOARD END
-    ==============================-->
-
-
+    </div>
     <!--============================
         FOOTER START
     ==============================-->
@@ -449,4 +288,6 @@
     <script src="js/main.js"></script>
 
 
-</body></html>
+
+
+</body>

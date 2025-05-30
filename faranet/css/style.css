@@ -7383,3 +7383,12 @@ button:focus {
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
 }
+.content-weblog {
+  width: clamp(300px, 90%, 800px);
+  background-color: #f9f9f9; /* فقط برای بهتر دیده شدن */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  direction: rtl; /* چون متنت فارسیه */
+  text-align: right;
+}
