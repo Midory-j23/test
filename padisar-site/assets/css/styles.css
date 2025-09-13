@@ -1,0 +1,30 @@
+/* Minimal site polish and accessibility helpers */
+:root { --brand: 79 70 229; /* indigo-600 */ }
+
+html { scroll-behavior: smooth; }
+
+::selection { background-color: rgba(var(--brand), 0.15); }
+
+/*****************
+ Focus styles
+*****************/
+:where(a, button, input, textarea, select) { outline: none; }
+:where(a, button, input, textarea, select):focus-visible {
+  outline: 2px solid rgb(79 70 229);
+  outline-offset: 2px;
+}
+
+/*****************
+ Typography tweaks
+*****************/
+:where(h1,h2,h3,h4) { letter-spacing: -0.02em; }
+
+/*****************
+ Cards hover lift
+*****************/
+.card {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
